@@ -26,12 +26,14 @@
 .header__accent {
   color: #000000;
 }
-.container{ 
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.header__wrap{display: flex;}
+.header__wrap {
+  display: flex;
+}
 .header__list {
   list-style: none;
   margin-left: 129px;
@@ -112,8 +114,6 @@
 }
 .info__list li {
   display: inline-block;
-}
-.info__title {
 }
 .info__title h3 {
   font-weight: 700;
@@ -212,4 +212,24 @@
 }
 .footer__items a {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* portholio */
+
+/* main portfolio */
+
+.button{background-color: black;}
+.portfolio__list{background-color: #000000; color: red;}
+.portfolio__content-items {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.portfolio__content-p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
